@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react'
+import { ArrowRight, Github, Linkedin } from 'lucide-react'
 import { client } from '@/lib/sanity.client'
 import { urlFor } from '@/lib/sanity.client'
 import ProjectCard from './components/ProjectCard'
@@ -108,13 +108,6 @@ export default async function Home() {
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     <Linkedin size={24} />
-                  </Link>
-                  <Link 
-                    href="https://twitter.com/yourusername" 
-                    target="_blank"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    <Twitter size={24} />
                   </Link>
                 </div>
               </div>

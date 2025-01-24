@@ -48,14 +48,6 @@ export default function Footer() {
                 <Github size={20} />
               </Link>
               <Link 
-                href="https://twitter.com"
-                className="p-2 rounded-lg bg-gray-800 text-gray-400 hover:text-white hover:bg-gray-700 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Twitter size={20} />
-              </Link>
-              <Link 
                 href="https://linkedin.com"
                 className="p-2 rounded-lg bg-gray-800 text-gray-400 hover:text-white hover:bg-gray-700 transition-colors"
                 target="_blank"
@@ -71,7 +63,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © {new Date().getFullYear()} Cameron Philbert. All rights reserved.
             </p>
           </div>
         </div>
